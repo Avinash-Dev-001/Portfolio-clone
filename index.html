@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash | Web Developer Portfolio</title>
+    <meta name="description" content="P Avinash is a skilled web developer and UX/UI designer, offering freelance digital solutions that enhance user experiences and drive results.">
+    <meta name="keywords" content="web development, UX/UI design, freelancer, digital solutions, web developer, digital solutions creator, technology, creative, innovation">
+    <meta name="author" content="P Avinash">
+    <link rel="canonical" href="https://pamulaavinashportfolio.com">
+    <meta name="description" content="Avinash's portfolio showcases innovative web development projects, skills in HTML, CSS, and JavaScript.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.3/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "ul_5JUZy7lECS5mOH",
+            });
+        })();
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "P Avinash",
+            "jobTitle": "Web Developer and UX/UI Designer",
+            "url": "https://pamulaavinashportfolio.netlify.app",
+            "sameAs": [
+                "https://www.linkedin.com/in/p-avinash-979567218/",
+                "https://github.com/Avinash-Dev-001"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Your City",
+                "addressRegion": "Your Region"
+            },
+            "image": "https://pamulaavinashportfolio.netlify.app/images/Profile Photo.jpg"
+        }
+        </script>
+        
+    <style>
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .button {
+            background-color: #38b2ac; 
+        }
+        .button:hover {
+            background-color: #319795; 
+            transform: scale(1.05);
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800">
+    <header class="bg-gray-900 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="font-bold text-xl">P's Portfolio</h1>
+            <div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav>
+                <ul class="nav-links flex space-x-4" id="nav-links">
+                    <li><a href="#home" class="hover:underline hover:text-teal-400">Home</a></li>
+                    <li><a href="#about" class="hover:underline hover:text-teal-400">About</a></li>
+                    <li><a href="#projects" class="hover:underline hover:text-teal-400">Projects</a></li>
+                    <li><a href="#ideas" class="hover:underline hover:text-teal-400">Ideas</a></li>
+                    <li><a href="#skills" class="hover:underline hover:text-teal-400">Skills</a></li>
+                    <li><a href="#contact" class="hover:underline hover:text-teal-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="h-screen flex items-center justify-center bg-gradient-to-r from-teal-500 to-teal-700">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="text-center md:text-left md:w-1/2">
+                <h2 class="text-4xl font-bold text-gray">Leading the Way in Digital Web Innovations</h2>
+                <p class="mt-4 text-lg text-gray animated-text">I am passionate about developing web applications that easily adjust to diverse user requirements.</p>
+                <a href="#projects" class="mt-6 inline-block bg-[rgb(0, 100, 0)] text-[rgb(0, 100, 0)] border-4 border-dark-green px-4 py-2 rounded transition-transform transform hover:scale-105"
+                >View My Work</a>
+            </div>
+            <div class="md:w-1/2 md:ml-10 p-8">
+                <img src="Profile Photo.jpg" alt="Your Image" class="w-64 h-64 rounded-full shadow-lg animated-image float-right ">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="py-16 fade-in">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="mb-4">Sharing my journey and innovative mission in technology.</p>
+            <img src="Profile Photo.jpg" alt="My Picture" class="w-32 h-32 rounded-full mx-auto mt-4 shadow-lg">
+            <p class="mt-4">Currently in my seventh semester, I am deeply passionate about web development and eagerly await opportunities to build a career in this field. With a strong interest in creating innovative solutions and a knack for personal projects, I am excited to apply my creativity and skills to real-world challenges. I believe in continuously learning and growing in the ever-evolving landscape of web development, and I am ready to contribute meaningfully to projects that come my way.</p>
+            <a href="assets/Resume.pdf" download class="mt-6 inline-block bg-gradient-to-r from-green-400 to-green-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-gradient-to-r hover:from-green-500 hover:to-green-700">
+                Download My Resume
+            </a>
+            
+        </div>
+    </section>
+    
+
+    <section id="projects" class="py-16 fade-in">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-[rgb(155,184,143)] p-6 border rounded-lg shadow card">
+                    <h3 class="font-bold text-xl">Hostel Management System</h3>
+                    <p>A comprehensive system designed to streamline the management of hostel operations, including room allocation, student registration, and maintenance requests.</p>
+                    <p class="text-sm mt-2"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                    <a href="https://github.com/Avinash-Dev-001/Hostel-Management-System" class="mt-2 inline-block bg-[rgb(167, 235, 138)] text-[rgb(0, 100, 0)] border-4 border-teal-500 px-4 py-2 rounded transition-transform transform hover:scale-105" target="_blank">View on GitHub</a>
+                </div>
+                <div class="bg-[rgb(167, 235, 138)] p-6 border rounded-lg shadow card">
+                    <h3 class="font-bold text-xl">QR Code Food Ordering System</h3>
+                    <p>Revolutionize dining experiences with a QR Code Food Ordering System that enables seamless, real-time menu customization and ordering from smartphones</p>
+                    <p class="text-sm mt-2"><strong>Tech Stack:</strong> Html, CSS, JavaScript</p>
+                    <a href="https://github.com/Avinash-Dev-001/Project-of-Food-Ordering-System-using-QR-Code" class="mt-2 inline-block bg-[rgb(155, 184, 143)] text-[rgb(0, 100, 0)] border-4 border-teal-500 px-4 py-2 rounded transition-transform transform hover:scale-105" target="_blank">View on GitHub</a>
+                </div>
+                
+                <div class="bg-[rgb(155,184,143)] p-6 border rounded-lg shadow card">
+                    <h3 class="font-bold text-xl">Portfolio Clone</h3>
+                    <p>A responsive portfolio website that showcases projects, highlights skills, and provides easy contact options.</p>
+                    <p class="text-sm mt-2"><strong>Tech Stack:</strong> CSS, JavaScript</p>
+                    <a href="https://github.com/Avinash-Dev-001/simpleportfolio" class="mt-2 inline-block bg-[rgb(167, 235, 138)] text-[rgb(0, 100, 0)] border-4 border-teal-500 px-4 py-2 rounded transition-transform transform hover:scale-105" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ideas" class="py-16 bg-gray-200 fade-in">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Ideas & Blog</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-[rgb(155,184,143)] p-4 border rounded-lg shadow transition-transform transform hover:scale-105">
+                    <h3 class="font-bold text-xl">How QR Codes are Changing the Food Industry</h3>
+                    <p class="mt-2">A look into how technology is transforming dining experiences.</p>
+                    <a href="#" class="text-[rgb(0, 100, 0)] mt-2 inline-block read-more" onclick="toggleContent(event)">Read More</a>
+                    <div class="hidden-content mt-2 hidden">
+                        <p>QR codes are revolutionizing the food industry by enabling contactless ordering and payments, enhancing customer experiences, and streamlining operations.</p>
+                        <p>They provide a convenient way for customers to access menus, place orders, and make payments directly from their smartphones, reducing wait times and minimizing contact with staff. Restaurants can also leverage QR codes for marketing by linking to promotions, specials, or customer feedback forms.</p>
+                        <p>Additionally, QR codes help reduce the use of physical menus, contributing to improved hygiene and safety, especially during health crises. This technology is proving to be an invaluable asset in adapting to the changing preferences of consumers and the demands of modern dining.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-[rgb(155,184,143)] p-4 border rounded-lg shadow transition-transform transform hover:scale-105">
+                    <h3 class="font-bold text-xl">AI in Web Development: What the Future Holds</h3>
+                    <p class="mt-2">Exploring the role of AI in creating intuitive websites.</p>
+                    <a href="#" class="text-[rgb(0, 100, 0)] mt-2 inline-block read-more" onclick="toggleContent(event)">Read More</a>
+                    <div class="hidden-content mt-2 hidden">
+                        <p>AI is set to revolutionize web development by automating coding processes, personalizing user experiences, and predicting user behavior.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-[rgb(155,184,143)] p-4 border rounded-lg shadow transition-transform transform hover:scale-105">
+                    <h3 class="font-bold text-xl">The Impact of Responsive Design on User Experience</h3>
+                    <p class="mt-2">How responsive design enhances accessibility and engagement.</p>
+                    <a href="#" class="text-[rgb(0, 100, 0)] mt-2 inline-block read-more" onclick="toggleContent(event)">Read More</a>
+                    <div class="hidden-content mt-2 hidden">
+                        <p>Responsive design improves user experience by ensuring that websites function well on any device, thus increasing engagement and accessibility.</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-[rgb(155,184,143)] fade-in">
+        <div class="max-w-xl mx-auto text-center">
+            <h1 class="text-2xl font-bold mb-5">Skills Section</h1>
+            <div class="mb-4">
+                <button id="toggleTechnical" class="bg-white text-black py-2 px-4 rounded">Technical Skills</button>
+                <button id="toggleCommunication" class="bg-white text-black py-2 px-4 rounded">Communication Skills</button>
+            </div>
+            <div id="skillsContainer">
+                <div id="technicalSkills" class="hidden">
+                    <h2 class="text-xl font-semibold">Technical Skills</h2>
+                    <div class="mt-2">
+                        <div class="mb-1">Java <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 80%;">80%</div></div>
+                        </div>
+                        <div class="mb-1">Python <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 70%;">70%</div></div>
+                        </div>
+                        <div class="mb-1">HTML <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 90%;">90%</div></div>
+                        </div>
+                        <div class="mb-1">CSS <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 85%;">85%</div></div>
+                        </div>
+                        <div class="mb-1">JavaScript <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 75%;">75%</div></div>
+                        </div>
+                        <div class="mb-1">PHP <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 60%;">60%</div></div>
+                        </div>
+                        <div class="mb-1">SQL <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 80%;">80%</div></div>
+                        </div>
+                        <div class="mb-1">SCSS<span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 75%;">75%</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="communicationSkills" class="">
+                    <h2 class="text-xl font-semibold">Communication Skills</h2>
+                    <div class="mt-2">
+                        <div class="mb-1">Team Management <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 85%;">85%</div></div>
+                        </div>
+                        <div class="mb-1">Leadership <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 90%;">90%</div></div>
+                        </div>
+                        <div class="mb-1">Collaboration <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 80%;">80%</div></div>
+                        </div>
+                        <div class="mb-1">Active Listening <span class="text-sm"></span>
+                            <div class="progress"><div class="progress-bar bg-green-500" style="width: 75%;">75%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gray-200 fade-in">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <form id="contact-form" class="flex flex-col items-center">
+                <input type="text" name="user_name" id="name" placeholder="Your Name" class="border p-2 mb-4 w-64" required>
+                <input type="email" name="user_email" id="mail" placeholder="Your Email" class="border p-2 mb-4 w-64" required>
+                <textarea name="message" id="message" placeholder="Your Message" class="border p-2 mb-4 w-64" required></textarea>
+                <button type="submit" class="button text-white px-4 py-2 rounded transition-all" onclick="sendMail()">Send Message</button>
+            </form>
+            <div class="mt-6">
+                <h3 class="font-bold">Follow Me:</h3>
+                <a href="https://www.linkedin.com/in/p-avinash-979567218/" target="_blank" class="text-blue-500 mx-2 hover:text-blue-400">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Avinash-Dev-001" class="text-blue-500 mx-2 hover:text-blue-400">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-900 text-white py-4 flex justify-center">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-4">
+                <p>I am eagerly awaiting the opportunity to apply and showcase my skills towards various tasks. I am excited to demonstrate my capabilities and contribute meaningfully to projects that come my way.  </p>
+    
+            </div>
+            <h1 class="text-2xl special-text">Reach Out and Connect 🤝 </h1>
+            <p>pamulaavinash001@gmail.com</p>
+            <p class="text-2xl special-text">made with ❤️ by Avinash</p>
+    
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
